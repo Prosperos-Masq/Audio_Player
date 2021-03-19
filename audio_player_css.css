@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  background-color: #6CE0B3;
+  height: 300px;
+}
+.outline {
+  background-color: black;
+  width: 400px;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+}
+.drake {
+  width: 250px;
+  margin-left: 80px;
+  margin-top: 100px;
+  box-shadow: 10px 10px 20px black;
+  border-radius: 5px;
+  position: fixed;
+  z-index: 2;
+}
+.top {
+  background-image: linear-gradient(0deg, #000000, #6cd3e0);
+  height: 400px;
+  border-radius: 10px;
+}
+.bottom {
+  background-color: black;
+  height: 258px;
+  border-radius: 5px;
+}
+.back-image {
+  width: 350px;
+  margin-left: 30px;
+  margin-top: 65px;
+  filter: blur(4px);
+  position: fixed;
+  z-index: 1;
+}
+.bar {
+  position: fixed;
+  background-color: gray;
+  display: block;
+  margin-left: 40px;
+  width: 310px;
+  height: 7px;
+  border: 3px solid black;
+  border-radius: 25px;
+}
+.name {
+  color: white;
+  text-align: center;
+  position: fixed;
+  margin-top: 300px;
+  margin-left: 150px;
+  font-family: Dancing Script;
+/*   word-spacing: 20px; */
+} 
+.album {
+  color: white;
+  text-align: center;
+  position: fixed;
+  margin-top: 330px;
+  margin-left: 110px;
+  word-spacing: 5px;
+  font-family: Dancing Script;
+  font-size: 30px;
+}
+.play-button {
+  position: fixed;
+  background-color: black;
+  margin-top: 75px;
+  margin-left: 175px;
+  width: 70px;
+  height: 70px;
+  border-style: double;
+  border-width: 0px 0px 0px 37px;
+  border-color: white;
+/*   cursor: pointer; */
+}
+.skip-forward {
+  position: fixed;
+  background-color: black;
+  margin-top: 75px;
+  margin-left: 35px;
+  width: 70px;
+  height: 70px;
+  border-style: solid;
+  border-width: 37px 74px 37px 0px;
+  border-color: black white black black;
+/*   cursor: pointer; */
+}
+.skip-back {
+  position: fixed;
+  background-color: black;
+  margin-top: 75px;
+  margin-left: 275px;
+  width: 70px;
+  height: 70px;
+  border-style: solid;
+  border-width: 37px 0px 37px 74px;
+  border-color: black black black white;
+/*   cursor: pointer; */
+}
+.time {
+  position: fixed;
+  margin-top: 380px;
+  margin-left: 155px;
+  color: white;
+}
